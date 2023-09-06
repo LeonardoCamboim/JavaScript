@@ -18,7 +18,7 @@ var produtos = [
   ];
   
   // Usando o método map() para aplicar um aumento de 1.5 ao preço de cada produto
-  var produtosComAumento = produtos.map(function (produto) {
+  var produtosComAumento = produtos.map((produto) => {
     return {
       nome: produto.nome,
       preco: produto.preco * 1.5, // Aplicando o aumento de 1.5 ao preço
